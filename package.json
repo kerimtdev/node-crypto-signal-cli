@@ -1,0 +1,22 @@
+{
+  "name": "node-crypto-signal-cli",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./bin/index.js",
+  "bin": {
+    "crypto-signal": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "date-fns": "^2.27.0",
+    "figlet": "^1.5.2",
+    "ora": "^6.0.1",
+    "prompts": "^2.4.2",
+    "stock-technical-indicators": "^2.0.1"
+  }
+}
